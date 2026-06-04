@@ -1,10 +1,10 @@
-# HLK-ZW101 Tester Program
+# HL-ZW101 Tester Program
 
 A desktop tool for testing and managing the HLK-ZW101 capacitive fingerprint sensor over UART, manufactured by **Shenzhen Hi-Link Electronic Co., Ltd**. Demo provided by Hi-Link was written in chinese, and was without LED control.
 
 Built on top of the [Adafruit Fingerprint Sensor Library](https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library) protocol, adapted and extended with additional controls for easier exploration of the device's communication protocol. Designed to make it straightforward to understand how the sensor works, and can be readily adapted into other microcontroller projects or programs.
 
-<img src="Images/HL-ZW101%20Product.png" width="450" alt="Program Screenshot">
+<img src="Images/HL-ZW101%20Product.png" width="450" alt="Product Screenshot">
 <img src="Images/Program%20screenshot.png" width="450" alt="Program Screenshot">
 
 ---
@@ -21,7 +21,7 @@ Built on top of the [Adafruit Fingerprint Sensor Library](https://github.com/ada
 
 **FP Sensor (MX1.0-6P) → CH340 (Jumper)**
 
-<!-- Insert wiring photo here -->
+<img src="Images/Circuit.png" width="450" alt="Setup">
 
 ---
 
