@@ -1,5 +1,7 @@
 # HLK-ZW101 Tester Program
 
+[![Download](https://img.shields.io/github/v/release/GavinnnTann/HLK-ZW101-Tester?label=Download&style=for-the-badge)](https://github.com/GavinnnTann/HLK-ZW101-Tester/releases/latest/download/HL-ZW101.Tester.Program.exe)
+
 A desktop tool for testing and managing the HLK-ZW101 capacitive fingerprint sensor over UART, manufactured by **Shenzhen Hi-Link Electronic Co., Ltd**. Demo provided by Hi-Link was written in chinese, and was without LED control.
 
 Built on top of the [Adafruit Fingerprint Sensor Library](https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library) protocol, adapted and extended with additional controls for easier exploration of the device's communication protocol. Designed to make it straightforward to understand how the sensor works, and can be readily adapted into other microcontroller projects or programs.
