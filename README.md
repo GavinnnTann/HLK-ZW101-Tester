@@ -1,4 +1,4 @@
-# HL-ZW101 Tester Program
+# HLK-ZW101 Tester Program
 
 A desktop tool for testing and managing the HLK-ZW101 capacitive fingerprint sensor over UART, manufactured by **Shenzhen Hi-Link Electronic Co., Ltd**. Demo provided by Hi-Link was written in chinese, and was without LED control.
 
@@ -34,7 +34,7 @@ Connect the module's wires to your USB-serial adapter as follows.
 > Black (module) → adapter TX means the adapter transmits to the module.
 > Colour scheme is based on the Hi-Link distributor above, colour may vary between different vendors.
 
-| HL-ZW101 Wire | Adapter Pin |
+| HLK-ZW101 Wire | Adapter Pin |
 |------|-------------|
 | 🔴 Red (GND) | GND |
 | ⚫ Black (RX) | TX |
@@ -58,7 +58,7 @@ Connect the module's wires to your USB-serial adapter as follows.
 
 ```bash
 pip install -r requirements.txt
-python '.\HL-ZW101 Tester Program.py' 
+python '.\HLK_ZW101_Tester_Program.py' 
 ```
 
 ---
