@@ -166,3 +166,9 @@ python HLK_ZW_Tester_Program.py
 - **Template management** — check, delete single, delete range, wipe all
 - **LED control** — all 6 modes (Breathing, Flash, Steady On, Gradually Open, Gradually Close, Off); falls back to simple on/off for passive-LED variants
 - **Settings** — security level, baud rate, packet size, password change
+
+---
+
+## Acknowledgements
+
+This project is heavily inspired by the [Adafruit Fingerprint Sensor Library](https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library) by Adafruit Industries, which pioneered an accessible Arduino API for EF-01 UART fingerprint modules. The packet framing, confirm-code handling, and overall driver architecture in `HLK_fingerprint.cpp` follow the same conventions established by their library. Credit to Adafruit and the contributors of that project for laying the groundwork.
