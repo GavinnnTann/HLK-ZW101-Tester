@@ -1,5 +1,6 @@
 # HLK-ZW Fingerprint Sensor
 
+[![Arduino Library Manager](https://www.ardu-badge.com/badge/HLK_fingerprint.svg)](https://www.ardu-badge.com/HLK_fingerprint)
 [![Download](https://img.shields.io/github/v/release/GavinnnTann/HLK-ZW-Fingerprint-Sensor?label=Download%20Tester&style=for-the-badge)](https://github.com/GavinnnTann/HLK-ZW-Fingerprint-Sensor/releases/download/v1.1.0/HLK-ZW.Tester.Program.exe)
 
 An Arduino library and desktop tester for the HLK-ZW series capacitive fingerprint sensors (EF-01 UART protocol), manufactured by **Shenzhen Hi-Link Electronic Co., Ltd**. Supports HLK-ZW101, ZW111, ZW06xx, ZW09xx, ZW30xx, and other AS608/R307-compatible modules.
@@ -22,6 +23,8 @@ The original Hi-Link demo was in Chinese and lacked LED control. This project pr
 ## Arduino Library
 
 ### Installation
+
+**Arduino Library Manager (recommended):** Open the Arduino IDE, go to Sketch → Include Library → Manage Libraries, search for `HLK_fingerprint`, and click Install.
 
 **Manual:** Download or clone this repo and copy `HLK_fingerprint.h` and `HLK_fingerprint.cpp` into your Arduino libraries folder, or place them alongside your sketch.
 
